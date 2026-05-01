@@ -154,8 +154,13 @@ body::before {
     <p>📍 Eleftherias 15 , Messini</p>
     <p>📞 +30 6977350869</p>
     <p>✉️ info@comfortholidays.gr</p>
-    <p>© 2025 Comfort Holidays</p>
+    <p>© <span id="year"></span> Comfort Holidays</p>
 </footer>
+
+<!-- AUTO YEAR SCRIPT -->
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
