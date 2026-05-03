@@ -46,6 +46,8 @@ html, body {
     font-weight: 600;
     z-index: 9999;
 }
+
+/* FORCE FULLSCREEN ON ALL SWIPER LAYERS */
 .swiper,
 .swiper-wrapper,
 .swiper-slide {
