@@ -1,9 +1,9 @@
-/* FULLSCREEN FIX FOR MOBILE */
+/* REAL FULLSCREEN ON MOBILE */
 html, body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100dvh;
+    height: var(--real-height);
     overflow: hidden;
     background: #000;
 }
@@ -11,7 +11,7 @@ html, body {
 /* SWIPER MAIN CONTAINER */
 .swiper {
     width: 100vw;
-    height: 100dvh;
+    height: var(--real-height);
     background: #000;
 }
 
@@ -22,13 +22,13 @@ html, body {
     align-items: center;
     background: #000;
     width: 100vw;
-    height: 100dvh;
+    height: var(--real-height);
 }
 
 /* IMAGES FULLSCREEN */
 .swiper-slide img {
     width: 100vw;
-    height: 100dvh;
+    height: var(--real-height);
     object-fit: contain;
     background: #000;
 }
