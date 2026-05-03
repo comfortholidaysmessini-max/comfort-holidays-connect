@@ -46,3 +46,8 @@ html, body {
     font-weight: 600;
     z-index: 9999;
 }
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+    height: var(--real-height) !important;
+}
